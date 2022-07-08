@@ -211,3 +211,22 @@ body {
   display: inline-block;
   margin-bottom: 90px;
 }
+
+.footer__author {
+  text-align: center;
+  color: #55adcf;
+  padding: 40px;
+}
+
+.footer__author span {
+  padding: 15px;
+}
+
+.footer__author span:hover {
+  color: #ffffff;
+  background-color: #55adcf;
+  border-radius: 15px;
+  font-size: 25px;
+  -webkit-transition: 0.55s;
+  transition: 0.55s;
+}

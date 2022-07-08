@@ -205,6 +205,24 @@ body{
     margin-bottom: 90px;
    }
   }
+
+  &__author{
+    text-align: center;
+    color: #55adcf;
+    padding: 40px;
+
+    span{
+      padding: 15px;
+      &:hover{
+        color: $color2;
+        background-color: $color3;
+        border-radius: 15px;
+        font-size: 25px;
+        transition: 0.55s;
+      }
+    }
+  
+  }
 }
 
 
