@@ -112,14 +112,42 @@ body{
     text-align: center;
     font-size: 28px;
     margin-top: 1 7px;
+    font-weight: bold;
 
    a{
     color: $color2;
     text-transform: uppercase;
+    font-weight: bold;
+    
    }
   }
 }
 .container {
 }
+
+.info {
+  border: 0.3px solid $color1;
+
+  &__title {
+    text-align: center;
+    margin-top: 142px;
+    margin-bottom: 30px;
+    color: $color2;
+    font-size: 43px;
+    font-weight: bold;
+  }
+
+  &__text {
+    color: $color2;
+    font-weight: bold;
+  }
+
+  &__media {
+  }
+
+  &__media-btn {
+  }
+}
+
 
 

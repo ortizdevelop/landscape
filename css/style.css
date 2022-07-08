@@ -103,9 +103,29 @@ body {
   text-align: center;
   font-size: 28px;
   margin-top: 1 7px;
+  font-weight: bold;
 }
 
 .la-logo__text a {
   color: #ffffff;
   text-transform: uppercase;
+  font-weight: bold;
+}
+
+.info {
+  border: 0.3px solid #506c82;
+}
+
+.info__title {
+  text-align: center;
+  margin-top: 142px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-size: 43px;
+  font-weight: bold;
+}
+
+.info__text {
+  color: #ffffff;
+  font-weight: bold;
 }
