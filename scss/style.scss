@@ -93,11 +93,12 @@ body{
 }
 
 .la-logo {
-  background-color: $color1;
+  background-color: $color1; //TODO: Сделать прозрачность цвета
 
   &__image{
-    margin: 0px 361px 82px 673px;
+    margin: 0px 361px 82px 673px; //TODO: Изменение цвета при наведении
     align-items: center;
+    
   }
 
   &__title {
@@ -134,7 +135,7 @@ body{
   align-items: center;
   display: flex;
   flex-direction: column;
-  background-color: #022e50;
+  background-color: #022e50; //TODO: Сделать прозрачность цвета
   
   &__title {
     text-align: center;
@@ -143,6 +144,14 @@ body{
     color: $color2;
     font-size: 35px;
     font-weight: bold;
+    padding: 10px;
+
+    &:hover{
+      color: $color3;
+      background-color: $color2;
+      border-radius: 15px;
+      transition: 0.55s;
+    }
   }
 
   &__text {
@@ -165,7 +174,7 @@ body{
   &__media {
     margin-bottom: 171px;
     ul{
-      padding-left: 30px;
+      padding-left: 30px; //TODO: Изменение цвета при наведении
     }
     li{
       display: inline;
