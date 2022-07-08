@@ -125,7 +125,7 @@ body{
 .info {
   align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; //TODO: Доделать opacity
   background-color: #022e50;
   
   &__title {
