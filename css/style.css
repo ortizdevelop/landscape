@@ -84,6 +84,7 @@ body {
 
 .la-logo {
   border: 0.3px solid #506c82;
+  background-color: #506c82;
 }
 
 .la-logo__img {
@@ -113,7 +114,18 @@ body {
 }
 
 .info {
-  border: 0.3px solid #506c82;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #506c82;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #022e50;
 }
 
 .info__title {
@@ -121,11 +133,31 @@ body {
   margin-top: 142px;
   margin-bottom: 30px;
   color: #ffffff;
-  font-size: 43px;
+  font-size: 35px;
   font-weight: bold;
 }
 
 .info__text {
   color: #ffffff;
-  font-weight: bold;
+  margin-bottom: 46px;
+  width: 691px;
+  height: 211px;
+  font-size: 29px;
+  text-align: center;
+}
+
+.info__media {
+  margin-bottom: 20px;
+}
+
+.info__media ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 30px;
+}
+
+.info__media li {
+  display: inline;
+  margin-right: 30px;
 }
