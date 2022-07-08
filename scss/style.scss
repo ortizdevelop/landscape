@@ -96,10 +96,9 @@ body{
   border: 0.3px solid $color1;
   background-color: $color1;
 
-  &__img {
+  &__image{
     margin: 330px 361px 82px 673px;
     align-items: center;
-    
   }
 
   &__title {
@@ -114,14 +113,15 @@ body{
     margin-top: 1 7px;
     font-weight: bold;
 
-   a{
-    color: $color2;
-    text-transform: uppercase;
-    font-weight: bold;
-    
-   }
+    a{
+      color: $color2;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
   }
 }
+
+
 .container {
 }
 
