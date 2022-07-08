@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+$color1: #506c82;
+$color2: #ffffff;
+$color3: #55adcf;
+$color4: #022e50;
+
+body{
+  font-family: Montserrat;
+  background: url('/img/bg.png');
+  width: 1784px;
+  height: 1526px;
+  padding: 0 117px;
+}
+
+.content{
+}
+
+.la-logo {
+  border: 0.3px solid $color1;
+  
+
+  &__img {
+    margin: 330px 361px 82px 673px;
+    align-items: center;
+    
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 122.5px;
+    color: #ffffff;
+  }
+
+  &__text {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 1 7px;
+
+   a{
+    color: $color2;
+    text-transform: uppercase;
+   }
+  }
+}
+.container {
+}
+
+
