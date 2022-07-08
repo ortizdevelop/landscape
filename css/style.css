@@ -83,12 +83,11 @@ body {
 }
 
 .la-logo {
-  border: 0.3px solid #506c82;
   background-color: #506c82;
 }
 
 .la-logo__image {
-  margin: 330px 361px 82px 673px;
+  margin: 0px 361px 82px 673px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -98,12 +97,14 @@ body {
   text-align: center;
   font-size: 122.5px;
   color: #ffffff;
+  font-weight: bold;
 }
 
 .la-logo__text {
+  padding: 142px;
   text-align: center;
   font-size: 28px;
-  margin-top: 1 7px;
+  margin-top: 17px;
   font-weight: bold;
 }
 
@@ -117,7 +118,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid #506c82;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -147,17 +147,40 @@ body {
 }
 
 .info__media {
-  margin-bottom: 20px;
+  margin-bottom: 171px;
 }
 
 .info__media ul {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   padding-left: 30px;
 }
 
 .info__media li {
   display: inline;
   margin-right: 30px;
+}
+
+.footer {
+  background-color: #022e50;
+}
+
+.footer__elipse {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__elipse-btn {
+  margin-left: 663px;
+}
+
+.footer__elipse-btn ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__elipse-btn li {
+  margin-right: 34px;
+  display: inline-block;
+  margin-bottom: 90px;
 }
