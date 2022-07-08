@@ -114,6 +114,15 @@ body {
   font-weight: bold;
 }
 
+.la-logo__text a:hover {
+  color: #55adcf;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 10px;
+  -webkit-transition: 0.55s;
+  transition: 0.55s;
+}
+
 .info {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -140,10 +149,19 @@ body {
 .info__text {
   color: #ffffff;
   margin-bottom: 46px;
+  padding-top: 15px;
   width: 691px;
   height: 211px;
   font-size: 29px;
   text-align: center;
+}
+
+.info__text:hover {
+  color: #55adcf;
+  background-color: #ffffff;
+  border-radius: 15px;
+  -webkit-transition: 0.55s;
+  transition: 0.55s;
 }
 
 .info__media {

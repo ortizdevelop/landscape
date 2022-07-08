@@ -118,6 +118,14 @@ body{
       color: $color2;
       text-transform: uppercase;
       font-weight: bold;
+
+      &:hover{
+        color: $color3;
+        background-color: $color2;
+        border-radius: 15px;
+        padding: 10px;
+        transition: 0.55s;
+      }
     }
   }
 }
@@ -140,10 +148,18 @@ body{
   &__text {
     color: $color2;
     margin-bottom: 46px;
+    padding-top: 15px;
     width: 691px;
     height: 211px;
     font-size: 29px;
     text-align: center;
+
+    &:hover{
+      color: $color3;
+      background-color: $color2;
+      border-radius: 15px;
+      transition: 0.55s;
+    }
   }
 
   &__media {
